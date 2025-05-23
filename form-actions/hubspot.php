@@ -209,7 +209,7 @@ class Hubspot_Action_After_Submit extends \ElementorPro\Modules\Forms\Classes\Ac
 
 		// Initialize communications array
 		$communications = [];
-		for ($i = 1; $i <= 5; $i++) {
+		for ($i = 1; $i <= 10; $i++) {
 			$consentFieldId = 'hubspot_consent_option_' . $i . '_id';
 			$consentFieldText = 'hubspot_consent_option_' . $i . '_text';
 			$subscriptionTypeIdOption = 'hubspot_consent_option_' . $i . '_subscriptionTypeId';

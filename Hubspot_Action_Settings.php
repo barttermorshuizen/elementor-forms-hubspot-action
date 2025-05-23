@@ -44,7 +44,7 @@ class Hubspot_Action_Settings {
 	 * Constructor to add consent fields dynamically.
 	 */
 	function __construct() {
-		for ($i = 1; $i <= 5; $i++) {
+		for ($i = 1; $i <= 10; $i++) {
 			$this->fields[] = [
 				'id' => 'hubspot_consent_option_' . $i . '_id',
 				'label' => 'Consent Option ' . $i . ' Subscription Type ID',
